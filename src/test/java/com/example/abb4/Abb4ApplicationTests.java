@@ -1,5 +1,9 @@
 package com.example.abb4;
 
+import com.example.abb4.answer.Answer;
+import com.example.abb4.answer.AnswerRepository;
+import com.example.abb4.question.Question;
+import com.example.abb4.question.QuestionRepository;
 import org.springframework.transaction.annotation.Transactional;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
